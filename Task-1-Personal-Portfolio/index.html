@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/project-19.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="mouse-glow"></div>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Muhammad Jawad Raza" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Muhammad Jawad Raza">Muhammad Jawad Raza</h1>
+          <p class="title" data-title-animation>Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jawadraza5665@gmail.com" class="contact-link">jawadraza5665@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+923477650735" class="contact-link">+92 3477650735</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2005-01-15">January 15, 2005</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Attock, Punjab, Pakistan</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/share/1A1pv9UwyS/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/-jawad22?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/itx.jawad22?igsh=MXA3emJxOGx4Zm50bQ==" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+           <li class="social-item">
+            <a href="https://wa.me/923477650735" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+           <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certificates</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+           I’m a Computer Science undergraduate and creative UI/UX-focused web developer, working on modern web interfaces and digital projects.
+I enjoy turning complex problems into simple, clean, and user-friendly designs, combining logic, creativity, and technology to build meaningful digital experiences.
+          </p>
+
+          <p>
+            My role is to design and develop websites that are functional, user-friendly, and visually engaging.
+I focus on adding a personal touch to every project, ensuring the final product is eye-catching, intuitive, and easy to use.
+My goal is to clearly communicate your brand message and identity through thoughtful design and clean execution.
+I have worked on a variety of web design projects across different domains, delivering modern and effective digital experiences.
+ </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/Canva app icon.jpeg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Canva</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Ahmed Zia" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ahmed Zia</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                   Jawad was hired to develop our corporate identity, and we were extremely satisfied with the outcome. His experience, professionalism, and attention to client requirements were evident throughout the project.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working with Jawad was a great experience. He understood our needs perfectly and delivered a strong corporate identity. He’s skilled, reliable, and genuinely cares about his clients.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                   Jawad created a corporate identity that truly represents our brand. His creative approach, eye for detail, and deep understanding of client needs made the entire process smooth and enjoyable.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Manzar Abbas</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Jawad did an excellent job creating our corporate identity. His experience and client-focused mindset clearly reflect in his work.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Ahsen" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Ahsen</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Jawad did an excellent job creating our corporate identity. His experience and client-focused mindset clearly reflect in his work.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+        <!--
+          - image modal for projects and certificates
+        -->
+
+
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Air University</h4>
+
+              <span>2023 — 2027</span>
+
+              <p class="timeline-text">
+                Currently pursuing a BS in Computer Science with a focus on programming, web development, UI/UX design, and software engineering.
+  Developing practical skills through projects, teamwork, and hands-on learning in modern technologies.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Fazaia Inter College Minhas Kamra</h4>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                 Completed Higher Secondary School Certificate (HSSC) in Pre-Engineering with a strong foundation in mathematics, physics, and analytical thinking.
+  Developed problem-solving skills and technical understanding that laid the groundwork for studies in computer science.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Fazaia Inter College Minhas Kamra</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+                Completed Secondary School Certificate (SSC) in Computer Science, gaining foundational knowledge in programming, computing concepts, and logical problem-solving.
+  Developed early interest in technology and software development.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CodeAlpha</h4>
+
+              <span>April-2026 — May-2026</span>
+
+              <p class="timeline-text">
+                Completed a <strong>Full Stack Development (FSD) Internship</strong> at CodeAlpha, where I designed and developed multiple full-stack web applications including an E-Commerce Platform, Social Media Application, and Project Management Tool. Gained hands-on experience in <strong>frontend development (HTML, CSS, JavaScript)</strong>, <strong>backend development (Node.js, Express.js)</strong>, <strong>database management (MongoDB/SQLite)</strong>, authentication systems, RESTful APIs, and real-time application features while strengthening problem-solving and software engineering skills through real-world project development.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DecodLabs</h4>
+
+              <span>April-2026 — May-2026</span>
+
+              <p class="timeline-text">
+                Completed a <strong>Data Science Internship</strong> at DecodLabs, where I worked on real-world data-driven projects involving <strong>data collection, cleaning, and preprocessing</strong> using Python. Gained hands-on experience in <strong>Pandas, NumPy, Matplotlib, and Seaborn</strong> for data analysis and visualization. Developed and evaluated <strong>machine learning models</strong> for prediction and classification tasks using <strong>Scikit-learn</strong>, and applied techniques such as regression, clustering, and feature engineering. Strengthened skills in <strong>exploratory data analysis (EDA)</strong>, model evaluation, and extracting actionable insights from datasets to support data-informed decision making.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Pakistan Aeronautical Complex, Kamra</h4>
+
+              <span>June-2025 — August-2025</span>
+
+              <p class="timeline-text">
+               Completed an internship at Pakistan Aeronautical Complex (PAC) Kamra, working with the Computer Networking and ERP teams.
+  Gained hands-on experience in network infrastructure, system operations, and cross-team collaboration on enterprise-level systems.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                Designed and developed responsive and user-friendly websites using modern web technologies.
+    Worked on UI/UX improvements, front-end development, and performance optimization.
+    Created visually appealing layouts and ensured smooth user experience across devices.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graphic Designer (Canva)</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                Created professional designs using Canva, including social media posts, banners, presentations, and marketing materials.
+    Focused on visual consistency, branding, and creative design to enhance digital presence.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design (Canva)</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analysis</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Mobile Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Desktop Applications</button>
+            </li>
+
+             <li class="filter-item">
+              <button data-filter-btn>Canva Designs</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Mobile Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Desktop Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Canva Designs</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+             <li class="project-item  active" data-filter-item data-category="mobile applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-10.png" alt="E Commerce" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">E Commerce</h3>
+
+                <p class="project-category">Mobile Applications</p>
+
+              </a>
+            </li>
+
+             <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-15.png" alt="news" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Live News</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="desktop applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-12.png" alt="Hotel" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hotel Management System</h3>
+
+                <p class="project-category">Desktop development</p>
+
+              </a>
+            </li>
+
+             <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-13.png" alt="news" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fake News Detector</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="desktop applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-11.png" alt="Fitness" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fitness Application</h3>
+
+                <p class="project-category">Desktop development</p>
+
+              </a>
+            </li>
+            
+             <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-14.png" alt="E Commerce" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">E Commerce website</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+             <li class="project-item  active" data-filter-item data-category="canva designs">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-16.png" alt="Social Media Posts" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Posts</h3>
+
+                <p class="project-category">Canva Designs</p>
+
+              </a>
+            </li>
+
+             <li class="project-item  active" data-filter-item data-category="canva designs">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-17.png" alt="Social Media Posts" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Posts</h3>
+
+                <p class="project-category">Canva Designs</p>
+
+              </a>
+            </li>
+
+             <li class="project-item  active" data-filter-item data-category="canva designs">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-18.png" alt="Poster" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Poster</h3>
+
+                <p class="project-category">Canva Designs</p>
+
+              </a>
+            </li>
+
+             <li class="project-item  active" data-filter-item data-category="canva designs">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-19.png" alt="logo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Logo</h3>
+
+                <p class="project-category">Canva Designs</p>
+
+              </a>
+            </li>
+
+                <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Mobile Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Mobile Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Certificate
+      -->
+
+     <article class="certificates" data-page="certificates">
+
+  <header>
+    <h2 class="h2 article-title">Certificates</h2>
+  </header>
+
+  <section class="certificate-posts">
+
+    <ul class="certificate-list">
+
+      <li class="certificate-item">
+        <figure class="certificate-box">
+          <img src="./assets/images/cert-1.png" alt="Freelancing Certificate" loading="lazy">
+        </figure>
+        <h3 class="h3 certificate-title">Freelancing</h3>
+      </li>
+
+      <li class="certificate-item">
+        <figure class="certificate-box">
+          <img src="./assets/images/cert-2.png" alt="Confidence and Impact Certificate" loading="lazy">
+        </figure>
+        <h3 class="h3 certificate-title">Confidence and Impact</h3>
+      </li>
+
+      <li class="certificate-item">
+        <figure class="certificate-box">
+          <img src="./assets/images/cert-3.png" alt="Graphic Design Certificate" loading="lazy">
+        </figure>
+        <h3 class="h3 certificate-title">Graphic Design</h3>
+      </li>
+
+      <li class="certificate-item">
+        <figure class="certificate-box">
+          <img src="./assets/images/cert-6.png" alt="Project Planning Certificate" loading="lazy">
+        </figure>
+        <h3 class="h3 certificate-title">Project Planning</h3>
+      </li>
+
+      <li class="certificate-item">
+        <figure class="certificate-box">
+          <img src="./assets/images/cert-4.png" alt="SEO Certificate" loading="lazy">
+        </figure>
+        <h3 class="h3 certificate-title">SEO</h3>
+      </li>
+
+      <li class="certificate-item">
+        <figure class="certificate-box">
+          <img src="./assets/images/cert-5.png" alt="WordPress Certificate" loading="lazy">
+        </figure>
+        <h3 class="h3 certificate-title">WordPress</h3>
+      </li>
+
+      <li class="certificate-item">
+        <figure class="certificate-box">
+          <img src="./assets/images/cert-7.png" alt="Critical Thinking in the AI Era Certificate" loading="lazy">
+        </figure>
+        <h3 class="h3 certificate-title">Critical Thinking in the AI Era</h3>
+      </li>
+
+      <li class="certificate-item">
+        <figure class="certificate-box">
+          <img src="./assets/images/cert-8.png" alt="Data Analytics & Business Intelligence Certificate" loading="lazy">
+        </figure>
+        <h3 class="h3 certificate-title">Data Analytics & Business Intelligence</h3>
+      </li>
+
+      <li class="certificate-item">
+        <figure class="certificate-box">
+          <img src="./assets/images/cert-9.png" alt="Data Science & Analytics Certificate" loading="lazy">
+        </figure>
+        <h3 class="h3 certificate-title">Data Science & Analytics</h3>
+      </li>
+
+      <li class="certificate-item">
+        <figure class="certificate-box">
+          <img src="./assets/images/cert-10.png" alt="Startup Strategies & Entrepreneurship Certificate" loading="lazy">
+        </figure>
+        <h3 class="h3 certificate-title">Startup Strategies & Entrepreneurship</h3>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
+
+  <!-- Contact Info Section -->
+  <section class="contact-info-section">
+
+    <ul class="contacts-list">
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="mail-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Email</p>
+          <a href="mailto:jawadraza5665@gmail.com" class="contact-link">
+            jawadraza5665@gmail.com
+          </a>
+        </div>
+      </li>
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="call-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Phone / WhatsApp</p>
+          <a href="https://wa.me/923477650735" class="contact-link">
+            +92 347 7650735
+          </a>
+        </div>
+      </li>
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="location-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Location</p>
+          <address>Attock, Punjab, Pakistan</address>
+        </div>
+      </li>
+
+    </ul>
+
+    <div class="separator"></div>
+
+    <!-- Social Media Icons -->
+    <ul class="social-list">
+
+      <li class="social-item">
+        <a href="https://www.facebook.com/share/1A1pv9UwyS/" target="_blank" class="social-link">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+      </li>
+
+      <li class="social-item">
+        <a href="https://www.linkedin.com/in/-jawad22" target="_blank" class="social-link">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </li>
+
+      <li class="social-item">
+        <a href="https://www.instagram.com/itx.jawad22" target="_blank" class="social-link">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+      </li>
+
+      <li class="social-item">
+        <a href="https://wa.me/923477650735" target="_blank" class="social-link">
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="contact-form">
+
+    <h3 class="h3 form-title">Send Message</h3>
+
+    <form class="form">
+
+      <div class="input-wrapper">
+        <input type="text" class="form-input" placeholder="Full Name" required>
+        <input type="email" class="form-input" placeholder="Email Address" required>
+      </div>
+
+      <textarea class="form-input" placeholder="Your Message" required></textarea>
+
+      <!-- Gmail Button -->
+      <a href="mailto:jawadraza5665@gmail.com" class="form-btn">
+        <ion-icon name="mail-outline"></ion-icon>
+        <span>Send via Gmail</span>
+      </a>
+
+      <!-- WhatsApp Button -->
+      <a href="https://wa.me/923477650735" class="form-btn" style="margin-left:10px;">
+        <ion-icon name="logo-whatsapp"></ion-icon>
+        <span>Send via WhatsApp</span>
+      </a>
+
+    </form>
+
+  </section>
+
+</article>
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <div class="modal-container img-modal-container" data-img-modal-container>
+    <div class="overlay" data-img-overlay></div>
+    <section class="img-modal">
+      <button class="modal-close-btn" data-img-modal-close-btn>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+      <div class="img-wrapper">
+        <img src="" alt="" data-img-modal-img>
+      </div>
+    </section>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
